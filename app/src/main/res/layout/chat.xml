@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffcc4">
+
+    <LinearLayout
+        android:background="#111111"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="#fffcc0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="4dp"
+                android:background="#fffcc4"/>
+        </LinearLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/skeptical_man"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#581945">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        >
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/chatItems"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"></ListView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="135dp"
+        android:src="@drawable/plus_sign">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+
+</LinearLayout>
